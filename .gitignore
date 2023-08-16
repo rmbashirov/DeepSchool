@@ -1,3 +1,17 @@
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+.idea
+*/.idea/*
+
+__pycache__
+*/__pycache__/*
+
+.vscode
+*/.vscode/*
+
+
+
 # Compiled source #
 ###################
 *.o
@@ -41,7 +55,7 @@ Thumbs.db
 __pycache__
 
 ## deca data
-*results*
+# *results*
 # *_vis.jpg
 ## internal use
 cluster_scripts

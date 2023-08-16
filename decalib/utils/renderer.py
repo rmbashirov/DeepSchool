@@ -251,7 +251,8 @@ class SRenderY(nn.Module):
         alpha_images = rendering[:, -1, :, :][:, None, :, :].detach()
 
         # albedo
-        uvcoords_images = rendering[:, :3, :, :]; grid = (uvcoords_images).permute(0, 2, 3, 1)[:, :, :, :2]
+        uvcoords_images = rendering[:, :3, :, :]; 
+        grid = (uvcoords_images).permute(0, 2, 3, 1)[:, :, :, :2]
         albedo_images = F.grid_sample(albedos, grid, align_corners=False)
 
         # visible mask for pixels with positive normal direction

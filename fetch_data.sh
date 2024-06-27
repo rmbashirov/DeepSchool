@@ -18,6 +18,7 @@ mv ./data/FLAME2020/generic_model.pkl ./data
 
 echo -e "\nDownloading deca_model..."
 
-FILEID=1rp8kdyLPvErw2dTmqtjISRVvQLj6Yzje
-FILENAME=./data/deca_model.tar
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id='${FILEID} -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=${FILEID}" -O $FILENAME && rm -rf /tmp/cookies.txt
+# FILEID=1rp8kdyLPvErw2dTmqtjISRVvQLj6Yzje
+# FILENAME=./data/deca_model.tar
+# wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id='${FILEID} -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=${FILEID}" -O $FILENAME && rm -rf /tmp/cookies.txt
+# does not work, download manually from https://drive.usercontent.google.com/download?id=1rp8kdyLPvErw2dTmqtjISRVvQLj6Yzje

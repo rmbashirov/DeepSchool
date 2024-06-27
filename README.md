@@ -24,6 +24,7 @@ conda install pytorch3d -c pytorch3d
 
 - Нужно доставить: `pip install kornia chumpy mxnet-mkl==1.6.0 numpy==1.23.1 face_alignment moviepy`
 - Выполните `fetch_data.sh`, надо будет зарегаться тут [https://flame.is.tue.mpg.de](https://flame.is.tue.mpg.de/)
+- Скачайте DECA модельку [тут](https://drive.usercontent.google.com/download?id=1rp8kdyLPvErw2dTmqtjISRVvQLj6Yzje), поместите сюда ./data/deca_model.tar
 - Скачайте [файл](https://drive.google.com/file/d/1UX7QzC3vP-jQJhyxlxDNeCr87PngHEWY/view?usp=sharing), поместите сюда `data/FLAME2020/FLAME_texture.npz`
 
 ### Задание
